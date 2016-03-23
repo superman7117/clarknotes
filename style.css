@@ -29,7 +29,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-content: space-around;
-  width: 94vw;
+  width: 100%;
   color: red;
   font-size: 3vw;
   padding: 3vw;
@@ -47,7 +47,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 94vw;
+  width: 100%;
   color: red;
   font-size: 3vw;
   background-color: black;
@@ -75,7 +75,14 @@ body {
   color: yellow;
   justify-content: center;
   align-content: center;
+  align-items: center;
   color: red;
+  flex-direction: column;
+}
+
+.under {
+  font-size: 2vw;
+  align-self: center;
 }
 span{
   color: yellow;
@@ -126,4 +133,34 @@ span{
   font-size: 3vw;
   padding: 3vw;
   flex-wrap: wrap;
+}
+
+.me {
+  width: 80vw;
+  font-size: 2vw;
+}
+
+.bubbleBath {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 2vw;
+}
+.bubbleBath2 {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2vw;
+}
+
+.bubble {
+  color: black;
+  background-color: grey;
+  border-radius: 2vw;
+  font-size: 2vw;
+  padding: .5vw;
+  border: 5px double black;
+
 }
