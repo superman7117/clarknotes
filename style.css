@@ -78,6 +78,7 @@ body {
   align-items: center;
   color: red;
   flex-direction: column;
+  text-decoration: none;
 }
 
 .under {
