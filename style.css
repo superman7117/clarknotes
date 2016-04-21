@@ -165,3 +165,17 @@ span{
   border: 5px double black;
 
 }
+
+.theButton {
+  background-color: red;
+  height: 3.5vw;
+  width: 50vw;
+  font-style: italic;
+  color: yellow;
+  font-size: 3vw;
+  border-top-right-radius: 20vw;
+  border-top-left-radius: 20vw;
+  text-align: center;
+  border: 2px solid grey;
+  border-bottom-color: none;
+}
