@@ -144,21 +144,21 @@ span{
 .bubbleBath {
   width: 80vw;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 2vw;
 }
 .bubbleBath2 {
   width: 80vw;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 2vw;
 }
 
 .bubble {
   color: black;
-  background-color: grey;
+  background-color: lightgrey;
   border-radius: 2vw;
   font-size: 2vw;
   padding: .5vw;
